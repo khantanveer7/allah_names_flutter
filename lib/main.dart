@@ -1,4 +1,5 @@
 import 'package:allah_names/pages/home.dart';
+import 'package:allah_names/pages/splash.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,8 +19,8 @@ class MyApp extends StatelessWidget {
       title: "Allah Names",
       initialRoute: '/',
       routes: {
-        // '/': (context) => HomePage(),
-        '/': (context) => Home(),
+        '/': (context) => Splash(),
+        '/home': (context) => Home(),
       },
     );
   }
